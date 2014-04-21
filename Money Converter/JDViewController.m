@@ -26,4 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertAmericanPressed:(UIButton *)sender
+{
+    int american = [self.americanTextField.text intValue];
+    double BritishPounds = american * 0.60;
+    self.britishLabel.text = [NSString stringWithFormat:@"%f",BritishPounds];
+    
+    double CanadianDollar = american * 0.91;
+    self.canadianLabel.text = [NSString stringWithFormat:@"%f",CanadianDollar];
+}
 @end

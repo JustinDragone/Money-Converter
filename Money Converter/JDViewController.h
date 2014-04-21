@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface JDViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *britishLabel;
+@property (strong, nonatomic) IBOutlet UITextField *americanTextField;
+- (IBAction)convertAmericanPressed:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UILabel *canadianLabel;
+
 
 @end

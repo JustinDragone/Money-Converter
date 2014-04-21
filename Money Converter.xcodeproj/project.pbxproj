@@ -21,6 +21,8 @@
 		637E61EF1903395200A1350C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E61D11903395200A1350C /* UIKit.framework */; };
 		637E61F71903395200A1350C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 637E61F51903395200A1350C /* InfoPlist.strings */; };
 		637E61F91903395200A1350C /* Money_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637E61F81903395200A1350C /* Money_ConverterTests.m */; };
+		637E620319033BE100A1350C /* uk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 637E620219033BE100A1350C /* uk.jpg */; };
+		637E620519033E1500A1350C /* Canadianflag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 637E620419033E1500A1350C /* Canadianflag.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		637E61F41903395200A1350C /* Money ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Money ConverterTests-Info.plist"; sourceTree = "<group>"; };
 		637E61F61903395200A1350C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		637E61F81903395200A1350C /* Money_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Money_ConverterTests.m; sourceTree = "<group>"; };
+		637E620219033BE100A1350C /* uk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uk.jpg; sourceTree = "<group>"; };
+		637E620419033E1500A1350C /* Canadianflag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Canadianflag.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		637E61D41903395200A1350C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				637E620419033E1500A1350C /* Canadianflag.jpg */,
+				637E620219033BE100A1350C /* uk.jpg */,
 				637E61D51903395200A1350C /* Money Converter-Info.plist */,
 				637E61D61903395200A1350C /* InfoPlist.strings */,
 				637E61D91903395200A1350C /* main.m */,
@@ -230,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				637E61E61903395200A1350C /* Images.xcassets in Resources */,
+				637E620519033E1500A1350C /* Canadianflag.jpg in Resources */,
+				637E620319033BE100A1350C /* uk.jpg in Resources */,
 				637E61D81903395200A1350C /* InfoPlist.strings in Resources */,
 				637E61E11903395200A1350C /* Main.storyboard in Resources */,
 			);
